@@ -53,7 +53,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
             .then(answers => {
-                writeToFile("ReadMe.md", answers);
+                writeToFile("README.md", answers);
             });
 };
 
